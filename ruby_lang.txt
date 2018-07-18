@@ -1,0 +1,14 @@
+Using expressions in string: #{...}
+Array of words: a = %{ ant bee cat dog elk }
+Unpredeclared constants: :some_const
+Instead (0..6) use 7.times
+Code block: { puts "here" } then called by yield
+iterator: code called by yield for each element
+& - for passing block as param
+lambda { |params| ... } or -> params { ... } - storing block in var 
+<=> - return 0, 1, -1
+.eql? - with types compare
+.equal? - objects ids R equals
+a, b, c = 0, 2, 3
+1...10 - from 1 to 9
+
