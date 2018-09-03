@@ -7,7 +7,7 @@ iterator: code called by yield for each element
 & - for passing block as param
 lambda { |params| ... } or -> params { ... } - storing block in var 
 <=> - return 0, 1, -1
-.eql? - with types compare
+.eql? - as ==, but used in Hash too, and use type compare: 1 eql? 1.0 => false
 .equal? - objects ids R equals
 a, b, c = 0, 2, 3
 1...10 - from 1 to 9
