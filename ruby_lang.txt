@@ -18,3 +18,4 @@ all !nil and !false == true  (zero, 0 == true)
 var ||= val - set val to var if it isn't set yet
 ensure - code after exception(occured or nod)
 @@class_const
+def foo(a, b*, c) - b will be array
