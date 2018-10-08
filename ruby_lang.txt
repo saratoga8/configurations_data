@@ -19,3 +19,6 @@ var ||= val - set val to var if it isn't set yet
 ensure - code after exception(occured or nod)
 @@class_const
 def foo(a, b*, c) - b will be array
+lambda vs proc: 
+  -> {return} - return from closure
+  proc {return} - return from outside closure too
