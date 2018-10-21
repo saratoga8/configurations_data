@@ -22,3 +22,4 @@ def foo(a, b*, c) - b will be array
 lambda vs proc: 
   -> {return} - return from closure
   proc {return} - return from outside closure too
+alias: alias for method, alias_method if scope is important
