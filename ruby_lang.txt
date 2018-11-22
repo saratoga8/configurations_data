@@ -24,3 +24,6 @@ lambda vs proc:
   proc {return} - return from outside closure too
 alias: alias for method, alias_method if scope is important
 use string key in hash: hash[key.to_sym]
+Hash.new("new default") - change default key of hash from nil
+dynamic default key - Hash.new { |hash, key| "#{key}: #{ Time.now.to_i }" }
+chage default after defined - h = {}; h.default = "default" or h.default_proc = Proc.new { Time.now.to_i }
