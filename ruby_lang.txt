@@ -33,3 +33,5 @@ Hash.new("new default") - change default key of hash from nil
 dynamic default key - Hash.new { |hash, key| "#{key}: #{ Time.now.to_i }" }
 chage default after defined - h = {}; h.default = "default" or h.default_proc = Proc.new { Time.now.to_i }
 names.map(&:upcase)     instead        names.map { |name| name.upcase }
+hash as optional params:             def greeting(name, options = {})
+                                     greeting("Bob", age: 62, city: "New York City")
