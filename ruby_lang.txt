@@ -35,3 +35,7 @@ chage default after defined - h = {}; h.default = "default" or h.default_proc = 
 names.map(&:upcase)     instead        names.map { |name| name.upcase }
 hash as optional params:             def greeting(name, options = {})
                                      greeting("Bob", age: 62, city: "New York City")
+include - can use included in a built instance of a class: SomeClass.new.module_func
+extend - can use extended in a class: SomeClass::module_func
+#each - execute on each and return unaffected arr
+#map - execute on each and return new arr
