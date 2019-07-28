@@ -22,7 +22,7 @@ def foo(a, b) puts a, b end - foo(*[a, b, c, d]) will print "a, b"
 all !nil and !false == true  (zero, 0 == true)
 var ||= val - set val to var if it isn't set yet
 ensure - code after exception(occured or nod)
-@@class_const
+@@class_const - inherited
 def foo(a, b*, c) - b will be array
 lambda vs proc: 
   -> {return} - return from closure
