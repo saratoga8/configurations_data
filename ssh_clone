@@ -1,0 +1,8 @@
+Generate SSH key
+Add to .ssh/config:
+    Host work
+      User github_user
+      HostName github.com
+      IdentityFile ~/.ssh/my_private_key
+      IdentitiesOnly yes
+Test connection: ssh -T git@work
