@@ -6,3 +6,4 @@ Add to .ssh/config:
       IdentityFile ~/.ssh/my_private_key
       IdentitiesOnly yes
 Test connection: ssh -T git@work
+git clone git@work:project_path/proj.git
